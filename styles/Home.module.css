@@ -1,0 +1,33 @@
+.mainContents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: relative;
+  background-color: white;
+  padding: 40px 60px;
+  color: rgb(75, 85, 99);
+  min-height: calc(100vh - 72px);
+}
+.mainContents::-webkit-scrollbar {
+  display: none;
+}
+.plan_months_heading{
+  width: 100%;
+}
+.plan_months_heading h1 {
+  font-size: 20px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+} */
